@@ -90,11 +90,7 @@ Your application will be available at `http://localhost:8000`
 
 To interact with the Llama API, send HTTP requests to the appropriate endpoints:
 
-```bash
-curl -X POST http://localhost:11434/api/generate \
-  -H "Content-Type: application/json" \
-  -d '{"prompt": "Your prompt here"}'
-```
+http://localhost:8000/generate
 
 ## 🌟 Example Applications
 
